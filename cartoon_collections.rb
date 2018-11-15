@@ -22,5 +22,5 @@ def find_the_cheese(strings)
   cheese_types.each do |cheese|
     return cheese if strings.include?(cheese)
   end
-  
+  return nil
 end
